@@ -3,6 +3,7 @@ import requests
 import nemo.collections.asr as nemo_asr
 import nemo.collections.nlp as nemo_nlp
 import nemo.collections.tts as nemo_tts
+from vehicle_finder import get_nearby_vehicles
 
 app = Flask(__name__)
 CORS(app)
